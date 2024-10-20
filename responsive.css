@@ -1,0 +1,20 @@
+@media screen and (max-width: 767px){
+     .navbar{
+        display: block;
+        text-align: center;
+     }
+     .navItem{
+          gap: 15px;
+          margin-top: 20px;
+          justify-content: center;
+     }
+    .banner-titile{
+        font-size: 30px;
+    }
+    .gallary-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .gallary-text h1{
+        font-size: 25px;
+    }
+}
