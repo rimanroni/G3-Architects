@@ -17,4 +17,29 @@
     .gallary-text h1{
         font-size: 25px;
     }
+    .core-features{
+     grid-template-columns: repeat(1, 1fr);
+    }
+    .core-features-mainContent h1{
+        font-size: 25px;
+    }
+    .banner-div{
+        left: 0px;
+    }
+    .facts-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .title-somefacts{
+        font-size: 25px;
+    }
+    .sponspors-content h1{
+        font-size: 25px;
+    }
+    .sponsors-img{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .sponsors-img div img{
+        width: 50%;
+    }
 }
